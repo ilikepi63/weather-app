@@ -3,6 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  // should probably be injected via env vars
+  appId: "633c22dc57e04a7eb5b13ee77322bdd8",
+  lat: 18.4232,
+  lon: -33.9258,
+  weatherUrl: "https://api.openweathermap.org/data/2.5/onecall",
   production: false
 };
 
